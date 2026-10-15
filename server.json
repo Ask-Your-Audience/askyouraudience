@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.askyouraudience/ask-your-audience",
   "title": "Ask Your Audience",
-  "description": "Test concepts, messaging and ads with audience-matched digital twins in your AYA account.",
-  "version": "1.0.1",
+  "description": "Human Digital Twins built from real people: test concepts, messaging and ads in your AI assistant.",
+  "version": "1.0.2",
   "websiteUrl": "https://developers.askyouraudience.ai/install",
   "repository": {
     "url": "https://github.com/Ask-Your-Audience/askyouraudience",

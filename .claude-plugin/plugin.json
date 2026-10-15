@@ -1,8 +1,8 @@
 {
   "name": "ask-your-audience",
   "displayName": "Ask Your Audience",
-  "version": "1.0.1",
-  "description": "Prepare available audience studies and read saved findings with digital twins in your existing AYA account.",
+  "version": "1.0.2",
+  "description": "Test concepts and messaging with Human Digital Twins built from real people, using your existing AYA account.",
   "author": {
     "name": "Ask your Audience Ltd",
     "email": "support@askyouraudience.ai",

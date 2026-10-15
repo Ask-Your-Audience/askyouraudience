@@ -2,9 +2,25 @@
 
 **Before you make the decision, Ask Your Audience.**
 
-Ask Your Audience (AYA) lets product, marketing and research teams test concepts, messaging and creative with audience-matched digital twins, without leaving their AI assistant. Connect your existing AYA account, pick one of your audiences, and AYA prepares a Concept Test or, where enabled for your account, an Image Ad Evaluator, Focus Group or Interview. You see the exact brief, participants and cost before anything runs, and you discuss the findings right in the chat.
+Ask Your Audience (AYA) gives product, marketing and research teams authentic audience feedback in minutes, not weeks, without leaving their AI assistant. AYA uses **Human Digital Twins**: AI built from deep profiling of real people, not synthetic personas. Each twin is built from 120+ data points collected through recorded interviews with a real person.
+
+Connect your existing AYA account, pick one of your audiences, and AYA prepares a Concept Test or, where enabled for your account, an Image Ad Evaluator, Focus Group or Interview. You see the exact brief, participants and cost before anything runs, and you discuss the findings right in the chat.
 
 Remote MCP server: `https://mcp.askyouraudience.ai/mcp` (Streamable HTTP, OAuth)
+
+## See it
+
+| A finished study | A one-to-one interview |
+| :-: | :-: |
+| ![A completed AYA study answering which Black Friday offer to run](assets/screenshots/study-result.png) | ![A live interview with a Human Digital Twin](assets/screenshots/interview.png) |
+
+**Twins built from real people**
+
+![Human Digital Twin profiles built from real people in London, Malta and Amsterdam](assets/screenshots/twins.png)
+
+**Reports with the numbers behind the answer**
+
+![An AYA report showing sentiment distribution and key metrics](assets/screenshots/report.png)
 
 ## What you can do
 
@@ -20,7 +36,7 @@ Image Ad Evaluator, Focus Group and Interview are available where enabled for yo
 
 Product managers checking a feature before building it, marketers testing messaging before a campaign, founders validating a proposition before launch, and research teams that want a fast first read before commissioning fieldwork.
 
-Each digital twin is built from real respondent data and matched to the audience you choose, so you get qualitative, quotable evidence in minutes rather than weeks. Learn more at [askyouraudience.ai](https://www.askyouraudience.ai).
+Because every twin starts with a real person, you hear reasons, objections and language that sound like your customers, not a generic persona. You pick the audience by country, age, occupation and more, and get qualitative, quotable evidence in minutes. Learn more at [askyouraudience.ai](https://www.askyouraudience.ai).
 
 ## Use it
 

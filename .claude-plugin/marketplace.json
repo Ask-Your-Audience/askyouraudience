@@ -9,8 +9,8 @@
     {
       "name": "ask-your-audience",
       "source": "./",
-      "description": "Prepare available audience studies and read saved findings with digital twins in your existing AYA account.",
-      "version": "1.0.1"
+      "description": "Test concepts and messaging with Human Digital Twins built from real people, using your existing AYA account.",
+      "version": "1.0.2"
     }
   ]
 }
