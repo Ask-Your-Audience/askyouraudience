@@ -6,6 +6,22 @@ Ask Your Audience (AYA) lets product, marketing and research teams test concepts
 
 Remote MCP server: `https://mcp.askyouraudience.ai/mcp` (Streamable HTTP, OAuth)
 
+## What you can do
+
+- **Concept Test**: see how your audience reacts to a product idea, proposition or message, with the reasons behind each reaction.
+- **Image Ad Evaluator**: score a supplied ad or creative for a specific placement such as LinkedIn or Instagram.
+- **Focus Group**: run a moderated discussion with six digital twins to surface objections and motivations.
+- **Interview**: go deep one-to-one with a single twin on a topic you choose.
+- **Your research, in chat**: browse your audiences, reopen saved studies and discuss findings without switching tools.
+
+Image Ad Evaluator, Focus Group and Interview are available where enabled for your account.
+
+## Who it's for
+
+Product managers checking a feature before building it, marketers testing messaging before a campaign, founders validating a proposition before launch, and research teams that want a fast first read before commissioning fieldwork.
+
+Each digital twin is built from real respondent data and matched to the audience you choose, so you get qualitative, quotable evidence in minutes rather than weeks. Learn more at [askyouraudience.ai](https://www.askyouraudience.ai).
+
 ## Use it
 
 | Where | How |
