@@ -11,9 +11,18 @@ Remote MCP server: `https://mcp.askyouraudience.ai/mcp` (Streamable HTTP, OAuth)
 | Where | How |
 | :- | :- |
 | **ChatGPT** | Follow the [ChatGPT setup guide](https://developers.askyouraudience.ai/install/chatgpt) |
+| **Claude** (web, desktop, mobile) | Add a custom connector, as shown below |
 | **Claude Code** | Install the plugin, as shown below |
-| **Claude** (web, desktop, mobile, Cowork) | Coming soon |
 | **Other MCP clients** (Cursor, VS Code, Codex and others) | Not yet available. Sign-in from these clients is not enabled yet. [Contact us](https://www.askyouraudience.ai/contact) for early access |
+
+### Claude (web, desktop, mobile)
+
+1. In Claude, open **Settings → Connectors → Add custom connector**.
+2. Name it `Ask Your Audience` and enter `https://mcp.askyouraudience.ai/mcp`.
+3. Under **OAuth client**, choose **Use your own OAuth client**, paste the client ID `f3500209-48db-4e55-969c-734f00420763` and leave the secret empty.
+4. Choose **Add**, then **Connect**. Sign in to AYA and choose **Allow access**.
+
+The client ID isn't a secret: AYA only sends its sign-in back to Claude.
 
 ### Claude Code
 
