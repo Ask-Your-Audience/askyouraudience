@@ -1,0 +1,16 @@
+{
+  "name": "askyouraudience",
+  "description": "Audience research with digital twins from Ask Your Audience.",
+  "owner": {
+    "name": "Ask your Audience Ltd",
+    "email": "support@askyouraudience.ai"
+  },
+  "plugins": [
+    {
+      "name": "ask-your-audience",
+      "source": "./",
+      "description": "Prepare available audience studies and read saved findings with digital twins in your existing AYA account.",
+      "version": "1.0.1"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ask-your-audience": {
+      "type": "http",
+      "url": "https://mcp.askyouraudience.ai/mcp"
+    }
+  }
+}

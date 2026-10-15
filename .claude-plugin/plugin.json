@@ -1,0 +1,20 @@
+{
+  "name": "ask-your-audience",
+  "displayName": "Ask Your Audience",
+  "version": "1.0.1",
+  "description": "Prepare available audience studies and read saved findings with digital twins in your existing AYA account.",
+  "author": {
+    "name": "Ask your Audience Ltd",
+    "email": "support@askyouraudience.ai",
+    "url": "https://askyouraudience.ai"
+  },
+  "homepage": "https://askyouraudience.ai",
+  "repository": "https://github.com/Ask-Your-Audience/askyouraudience",
+  "license": "MIT",
+  "keywords": [
+    "audience",
+    "research",
+    "concept-testing",
+    "digital-twins"
+  ]
+}

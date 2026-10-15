@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ask-your-audience",
+  "version": "1.0.1",
+  "description": "Prepare available audience studies and read saved findings with digital twins in your existing AYA account.",
+  "author": {
+    "name": "Ask your Audience Ltd",
+    "email": "support@askyouraudience.ai",
+    "url": "https://askyouraudience.ai"
+  },
+  "homepage": "https://askyouraudience.ai",
+  "keywords": [
+    "audience",
+    "research",
+    "concept-testing",
+    "digital-twins"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ask Your Audience",
+        "shortDescription": "Research with digital twins",
+        "longDescription": "Before you make the decision, Ask Your Audience. Help product, marketing and research teams explore concepts, messaging and supplied creative with audience-matched digital twins. Connect your existing AYA account, select an existing audience, and prepare a Concept Test, Image Ad Evaluator, Focus Group or Interview when available for your account and connection. Review the exact brief, participants and study cost before explicitly approving a run. Discuss returned findings and evidence in chat, or open an AYA visual when useful. Digital twin responses are simulated qualitative research, not a representative survey or a prediction of real-world outcomes. Saved study access depends on separately approved permissions.",
+        "developerName": "Ask your Audience Ltd",
+        "category": "Education & Research",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://askyouraudience.ai",
+        "supportURL": "https://askyouraudience.ai/contact",
+        "privacyPolicyURL": "https://askyouraudience.ai/privacy",
+        "termsOfServiceURL": "https://askyouraudience.ai/terms",
+        "defaultPrompt": [
+          "Prepare a Concept Test for this proposition with an audience in my AYA account.",
+          "Help me understand the findings from my completed AYA study."
+        ],
+        "brandColor": "#26848D",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  },
+  "repository": "https://github.com/Ask-Your-Audience/askyouraudience",
+  "license": "MIT"
+}
