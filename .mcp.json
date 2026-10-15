@@ -2,7 +2,11 @@
   "mcpServers": {
     "ask-your-audience": {
       "type": "http",
-      "url": "https://mcp.askyouraudience.ai/mcp"
+      "url": "https://mcp.askyouraudience.ai/mcp",
+      "oauth": {
+        "clientId": "7d80d83e-5d1e-4768-94d3-9c2a6b899df6",
+        "callbackPort": 47561
+      }
     }
   }
 }

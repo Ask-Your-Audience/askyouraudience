@@ -11,8 +11,26 @@ Remote MCP server: `https://mcp.askyouraudience.ai/mcp` (Streamable HTTP, OAuth)
 | Where | How |
 | :- | :- |
 | **ChatGPT** | Follow the [ChatGPT setup guide](https://developers.askyouraudience.ai/install/chatgpt) |
-| **Claude** (web, desktop, mobile, Cowork) and **Claude Code** | Coming soon |
+| **Claude Code** | Install the plugin, as shown below |
+| **Claude** (web, desktop, mobile, Cowork) | Coming soon |
 | **Other MCP clients** (Cursor, VS Code, Codex and others) | Not yet available. Sign-in from these clients is not enabled yet. [Contact us](https://www.askyouraudience.ai/contact) for early access |
+
+### Claude Code
+
+Inside Claude Code (v2.1.275 or later):
+
+```
+/plugin install ask-your-audience --marketplace Ask-Your-Audience/askyouraudience
+```
+
+Or from your shell:
+
+```
+claude plugin marketplace add Ask-Your-Audience/askyouraudience
+claude plugin install ask-your-audience@askyouraudience
+```
+
+Then run `/mcp`, choose **ask-your-audience** and select **Authenticate**. Your browser opens AYA so you can sign in and allow access. Claude Code receives the sign-in on port 47561, so keep that port free.
 
 You need an [AYA account](https://www.askyouraudience.ai) with at least one audience. Connecting and preparing studies are free. A study uses AYA tokens from your existing balance only after you approve its quoted cost.
 
