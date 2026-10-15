@@ -1,7 +1,7 @@
 {
   "name": "ask-your-audience",
   "displayName": "Ask Your Audience",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the cost first, and nothing runs until you approve.",
   "author": {
     "name": "Ask your Audience Ltd",
@@ -16,5 +16,9 @@
     "research",
     "concept-testing",
     "digital-twins"
-  ]
+  ],
+  "documentationUrl": "https://developers.askyouraudience.ai/install/claude",
+  "supportUrl": "https://askyouraudience.ai/contact",
+  "privacyPolicyUrl": "https://askyouraudience.ai/privacy",
+  "termsOfServiceUrl": "https://askyouraudience.ai/terms"
 }

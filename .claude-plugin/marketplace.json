@@ -10,7 +10,7 @@
       "name": "ask-your-audience",
       "source": "./",
       "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the cost first, and nothing runs until you approve.",
-      "version": "1.0.3"
+      "version": "1.0.4"
     }
   ]
 }
