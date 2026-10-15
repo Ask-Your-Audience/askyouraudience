@@ -1,8 +1,8 @@
 {
   "name": "ask-your-audience",
   "displayName": "Ask Your Audience",
-  "version": "1.0.2",
-  "description": "Test concepts and messaging with Human Digital Twins built from real people, using your existing AYA account.",
+  "version": "1.0.3",
+  "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the cost first, and nothing runs until you approve.",
   "author": {
     "name": "Ask your Audience Ltd",
     "email": "support@askyouraudience.ai",

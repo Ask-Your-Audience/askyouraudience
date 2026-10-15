@@ -2,50 +2,44 @@
 
 **Before you make the decision, Ask Your Audience.**
 
-Ask Your Audience (AYA) gives product, marketing and research teams authentic audience feedback in minutes, not weeks, without leaving their AI assistant. AYA uses **Human Digital Twins**: AI built from deep profiling of real people, not synthetic personas. Each twin is built from 120+ data points collected through recorded interviews with a real person.
+Ask **Human Digital Twins** what they think of your idea, message or ad without leaving Claude or ChatGPT. Every twin is built from a real person: recorded interviews and more than 120 data points on how they live, shop and decide. You get a clear answer, the reasons behind it and every response, in minutes rather than weeks.
 
-Connect your existing AYA account, pick one of your audiences, and AYA prepares a Concept Test or, where enabled for your account, an Image Ad Evaluator, Focus Group or Interview. You see the exact brief, participants and cost before anything runs, and you discuss the findings right in the chat.
+![Human Digital Twins built from real people in the UK, the Netherlands and Malta](assets/screenshots/twins.png)
 
 Remote MCP server: `https://mcp.askyouraudience.ai/mcp` (Streamable HTTP, OAuth)
 
-## See it
+## What you can ask
 
-| A finished study | A one-to-one interview |
+- **Concept Test**: how your audience reacts to a product idea, offer or message, and why.
+- **Focus Group**: six twins talk your question through. You get the short answer, the evidence and every response.
+- **Image Ad Evaluator**: share an ad and see what twins take from it, how it scores and what to fix.
+- **Interview**: one twin, one to one, with follow-up questions.
+
+You choose the audience from those in your AYA account, by country, age, occupation and more. Image Ad Evaluator, Focus Group and Interview are available where enabled for your account.
+
+## How a study runs
+
+1. **Ask.** Describe your decision in the chat. Your assistant finds a matching audience in your AYA account.
+2. **Check.** AYA returns the exact brief, the twins taking part and the cost in AYA tokens. Nothing is charged.
+3. **Approve.** You confirm in the chat. Nothing runs without your approval, and a quote expires after 15 minutes.
+4. **Read.** The study runs once. Your assistant discusses the findings and the evidence behind them, and links the full report in AYA.
+
+| You approve every study | A clear answer, with the reasons |
 | :-: | :-: |
-| ![A completed AYA study answering which Black Friday offer to run](assets/screenshots/study-result.png) | ![A live interview with a Human Digital Twin](assets/screenshots/interview.png) |
+| ![The study card showing the brief, six twins and a 50-token cost waiting for approval](assets/screenshots/approve.png) | ![Focus Group findings in the chat, with one twin's response](assets/screenshots/answer.png) |
+| **Test an ad before you pay to run it** | **Ask one twin why** |
+| ![An example ad for a made-up brand, before and after the fixes twins suggested](assets/screenshots/ad.png) | ![An interview with a twin about an abandoned basket](assets/screenshots/interview.png) |
 
-**Twins built from real people**
+The screens show example studies. Oona is a made-up brand. Talking out loud with a twin is available in the AYA app.
 
-![Human Digital Twin profiles built from real people in London, Malta and Amsterdam](assets/screenshots/twins.png)
-
-**Reports with the numbers behind the answer**
-
-![An AYA report showing sentiment distribution and key metrics](assets/screenshots/report.png)
-
-## What you can do
-
-- **Concept Test**: see how your audience reacts to a product idea, proposition or message, with the reasons behind each reaction.
-- **Image Ad Evaluator**: score a supplied ad or creative for a specific placement such as LinkedIn or Instagram.
-- **Focus Group**: run a moderated discussion with six digital twins to surface objections and motivations.
-- **Interview**: go deep one-to-one with a single twin on a topic you choose.
-- **Your research, in chat**: browse your audiences, reopen saved studies and discuss findings without switching tools.
-
-Image Ad Evaluator, Focus Group and Interview are available where enabled for your account.
-
-## Who it's for
-
-Product managers checking a feature before building it, marketers testing messaging before a campaign, founders validating a proposition before launch, and research teams that want a fast first read before commissioning fieldwork.
-
-Because every twin starts with a real person, you hear reasons, objections and language that sound like your customers, not a generic persona. You pick the audience by country, age, occupation and more, and get qualitative, quotable evidence in minutes. Learn more at [askyouraudience.ai](https://www.askyouraudience.ai).
-
-## Use it
+## Set it up
 
 | Where | How |
 | :- | :- |
-| **ChatGPT** | Create a custom app, as shown below |
-| **Claude** (web, desktop, mobile) | Add a custom connector, as shown below |
-| **Claude Code** | Install the plugin, as shown below |
-| **Other MCP clients** (Cursor, VS Code, Codex and others) | Not yet available. Sign-in from these clients is not enabled yet. [Contact us](https://www.askyouraudience.ai/contact) for early access |
+| **Claude** (web, desktop, mobile) | Add a custom connector |
+| **ChatGPT** | Create a custom app |
+| **Claude Code** | Install the plugin |
+| **Other MCP clients** (Cursor, VS Code, Codex and others) | Not available yet. [Contact us](https://www.askyouraudience.ai/contact) for early access |
 
 ### Claude (web, desktop, mobile)
 
@@ -80,18 +74,13 @@ You need an [AYA account](https://www.askyouraudience.ai) with at least one audi
 
 ## Try asking
 
-- "Prepare a Concept Test for this proposition with an audience in my AYA account."
-- "Run a focus group with my UK audience about objections to a refundable cup deposit. Show me the questions and cost first."
-- "Help me understand the findings from my completed AYA study."
+- "Should our café charge extra for oat milk? Prepare a focus group with my café customers audience and show me the questions and cost first."
+- "Here's our new homepage headline. Prepare a Concept Test with my UK audience."
+- "Help me understand the findings from my latest AYA study."
 
-## How a study runs
+## Good to know
 
-1. **Find an audience.** The assistant searches the audiences you already have in AYA.
-2. **Prepare.** AYA returns the exact brief, the selected digital twins and the token cost. Nothing is charged.
-3. **Approve.** You confirm the quote in the chat. Nothing runs without your explicit approval, and a quote expires after fifteen minutes.
-4. **Run and read.** The study runs once. The assistant reports progress and then discusses the returned findings, citing the evidence.
-
-Digital twin responses are simulated qualitative research. They are not a representative survey or a prediction of real-world outcomes.
+Human Digital Twin answers are simulated qualitative research. They are not a representative survey or a prediction of real-world outcomes. Use them for a fast first read before you commit time or budget.
 
 ## What's in this repository
 

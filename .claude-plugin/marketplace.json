@@ -1,6 +1,6 @@
 {
   "name": "askyouraudience",
-  "description": "Audience research with digital twins from Ask Your Audience.",
+  "description": "Human Digital Twins from Ask Your Audience, built from real people.",
   "owner": {
     "name": "Ask your Audience Ltd",
     "email": "support@askyouraudience.ai"
@@ -9,8 +9,8 @@
     {
       "name": "ask-your-audience",
       "source": "./",
-      "description": "Test concepts and messaging with Human Digital Twins built from real people, using your existing AYA account.",
-      "version": "1.0.2"
+      "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the cost first, and nothing runs until you approve.",
+      "version": "1.0.3"
     }
   ]
 }
