@@ -9,8 +9,8 @@
     {
       "name": "ask-your-audience",
       "source": "./",
-      "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the AYA tokens it uses first, and nothing runs until you approve.",
-      "version": "1.0.5"
+      "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. Start with a free Snapshot, then run a full study: you see the brief and the AYA tokens it uses first, and nothing runs until you approve.",
+      "version": "1.0.6"
     }
   ]
 }

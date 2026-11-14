@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ask-your-audience",
-  "version": "1.0.5",
-  "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. You see the brief and the AYA tokens it uses first, and nothing runs until you approve.",
+  "version": "1.0.6",
+  "description": "Ask Human Digital Twins, built from real people, what they think of your ideas, messages and ads. Start with a free Snapshot, then run a full study: you see the brief and the AYA tokens it uses first, and nothing runs until you approve.",
   "author": {
     "name": "Ask your Audience Ltd",
     "email": "support@askyouraudience.ai",
@@ -20,7 +20,7 @@
       "interface": {
         "displayName": "Ask Your Audience",
         "shortDescription": "Research with digital twins",
-        "longDescription": "Before you make the decision, Ask Your Audience. Help product, marketing and research teams explore concepts, messaging and supplied creative with audience-matched digital twins. Connect your existing AYA account, select an existing audience, and prepare a Concept Test, Image Ad Evaluator, Focus Group or Interview when available for your account and connection. Review the exact brief, participants and the AYA tokens a study uses from your existing plan before explicitly approving a run. Discuss returned findings and evidence in chat, or open an AYA visual when useful. Digital twin responses are simulated qualitative research, not a representative survey or a prediction of real-world outcomes. Saved study access depends on separately approved permissions.",
+        "longDescription": "Before you make the decision, Ask Your Audience. Help product, marketing and research teams explore concepts, messaging and supplied creative with audience-matched digital twins. Get a free Snapshot: six matched twins react to an idea in about a minute, with no audience or tokens needed. Connect your existing AYA account to find or suggest an audience, then prepare a Concept Test, Image Ad Evaluator, Focus Group, Interview, follow-up or Brand Evaluator. Review the exact brief, participants and the AYA tokens a study uses from your existing plan before explicitly approving a run. Discuss returned findings and evidence in chat, compare a follow-up with the original twin by twin, or open an AYA visual when useful. Digital twin responses are simulated qualitative research, not a representative survey or a prediction of real-world outcomes. Saved study access depends on separately approved permissions.",
         "developerName": "Ask your Audience Ltd",
         "category": "Education & Research",
         "capabilities": [
@@ -32,6 +32,7 @@
         "privacyPolicyURL": "https://askyouraudience.ai/privacy",
         "termsOfServiceURL": "https://askyouraudience.ai/terms",
         "defaultPrompt": [
+          "Give me a free Snapshot: what would people in the UK think of a reusable coffee cup with a refundable deposit?",
           "Prepare a Concept Test for this proposition with an audience in my AYA account.",
           "Help me understand the findings from my completed AYA study."
         ],
